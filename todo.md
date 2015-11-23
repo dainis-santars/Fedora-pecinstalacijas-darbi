@@ -36,7 +36,17 @@ Iekš Fedy jāuzstāda:
 ```{r, engine='bash', plank}
 dnf install plank
 ```
+Lai panelis neslēpjas un rezervē sev vietu ekrānā, jārediģē */home/dainis/.config/plank/dock1/settings* datne, kur **HideMode=0**
 
+### DropDown Teminal
+```{r, engine='bash', guake}
+dnf install guake
+```
+
+### Utilītas
+```{r, engine='bash', dconf}
+dnf install dconf-editor
+```
 
 
 [SF.net]: <http://www.webmin.com/download.html>
