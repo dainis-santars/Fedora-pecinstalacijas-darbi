@@ -61,8 +61,24 @@ dnf install libreoffice-langpack-lv
 ```
 
 Base
-```{r, engine='bash', lo-lv}
+```{r, engine='bash', lo-db}
 dnf install libreoffice-base
+```
+### Graﬁka
+```{r, engine='bash', scan}
+dnf install simple-scan
+```
+```{r, engine='bash', ink}
+dnf install inkscape
+```
+```{r, engine='bash', gimp}
+dnf install gimp
+```
+```{r, engine='bash', myp}
+dnf install mypaint
+```
+```{r, engine='bash', shu}
+dnf install shutter
 ```
 
 ### DropDown Teminal
