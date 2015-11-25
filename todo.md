@@ -12,9 +12,24 @@
 
 ### Webmin
 Lejupielāde no: [SF.net]
+### Gnome Tweak Tool
+```{r, engine='bash', tweak}
+sudo dnf install gnome-tweak-tool
+```
+#### Power pogas uzvedība
+Barošana → Kad nospiesta Power poga, darīt neko!
 
+ :interrobang: Ja nav pieejams:
+Rediģē datni */etc/systemd/logind.conf*, kur maina rindu
+
+`#HandlePowerKey=poweroff`
+
+uz
+
+`#HandlePowerKey=ignore`
 ### Sistēmas informācija:
 hostname 219kabXX, kur XX datora kārtas numurs
+
 ### Fedy
 ```{r, engine='bash', fedy}
 bash -c 'su -c "curl http://folkswithhats.org/fedy-installer -o fedy-installer && chmod +x fedy-installer && ./fedy-installer"'
@@ -37,6 +52,18 @@ Iekš Fedy jāuzstāda:
 dnf install plank
 ```
 Lai panelis neslēpjas un rezervē sev vietu ekrānā, jārediģē */home/dainis/.config/plank/dock1/settings* datne, kur **HideMode=0**
+
+### Ofiss
+Latviskais LibreOfﬁce
+
+```{r, engine='bash', lo-lv}
+dnf install libreoffice-langpack-lv
+```
+
+Base
+```{r, engine='bash', lo-lv}
+dnf install libreoffice-base
+```
 
 ### DropDown Teminal
 ```{r, engine='bash', guake}
