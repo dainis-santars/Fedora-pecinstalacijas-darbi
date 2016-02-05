@@ -1,0 +1,4 @@
+Paziņojuma ģenerēšana:
+```bash
+sleep 3m; xmessage -nearmouse "Your tea is ready"
+```
