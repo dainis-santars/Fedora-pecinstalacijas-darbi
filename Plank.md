@@ -1,4 +1,4 @@
-## Lai atrisinātu problēmu ar Plank settingu nesaturēšanu, jādara sekojošais.
+## Lai atrisinātu problēmu ar Plank settingu nesaturēšanu, jādara sekojošais:
 1. Nokopē mapi Launchers no _~/config/plank/dock1/_ uz _~/.skripti_. Datni __planksetting.dockitem__ var izlaist.
 2. Iekš _~/.skripti_ ieraksta failu __plank.sh__ ar saturu:
 ```sh
