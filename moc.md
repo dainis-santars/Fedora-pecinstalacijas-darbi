@@ -8,4 +8,4 @@ Jādara sekojošais:
 2. Uztaisa tukšu failu `sudo touch tukshs`
 3. Sakopē vecās mašīnas .moc direktoriju jaunajā
 4. Maina direktoriju `cd`, `cd .moc`
-5. Ar root tiesībām uztaisa config datni `sudo touch config` un tajā ievada noteikumu `TiMidity_Config = /etc/timidity.cfg`
+5. Ar :punch: root tiesībām uztaisa config datni `sudo touch config` un tajā ievada noteikumu `TiMidity_Config = /etc/timidity.cfg`
