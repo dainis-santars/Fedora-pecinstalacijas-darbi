@@ -1,0 +1,27 @@
+priekš domēņa www.e-klase.lv
+
+body {
+    background: url(https://i9.ifrype.com/login/002/479/2479.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.hidden-xs {
+    float: left !important;
+    margin-left: 460px;
+    margin-top: 140px;
+}
+.login_box.summer {
+    background-color: #2E3436 !important;
+}
+.login_box.autumn {
+    background-color: #2E3436 !important;
+}
+body {
+    font-family: Source Sans Pro !important;
+    font-size: 14pt !important;
+}
+td.screen:nth-child(3) {
+    width: 5% !important;
+}
