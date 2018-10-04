@@ -15,3 +15,10 @@ fi
 Būs:
 
 ![smuki](https://fedoramagazine.org/wp-content/uploads/2015/08/Screenshot-from-2015-08-28-10-34-25.png)
+
+
+## Tilix
+
+`sudo dnf install -y tilix`
+
+EOF
